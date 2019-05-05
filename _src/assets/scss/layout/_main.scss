@@ -64,8 +64,7 @@
     height: 50px;
     width: 50px;
     background-color: white;
-    border-radius: 50%;
-   
+    border-radius: 50%;   
 }
 .tooth3{
     height: 50px;
@@ -108,4 +107,96 @@
      transform: rotate(45deg);
      transform-origin: 100% 100%;
    }
+//  Cheek decorations 
+.color-cheek1{
+    background-color: #FF6F91;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 210px; 
+    left: 20px;
+}
+.color-cheek2{
+    background-color: #FF6F91;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 210px; 
+    right: 20px;
+}
+// Head decorations
 
+.circle-head1{
+    border: dotted #C598F0 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: -110px; 
+    left: 100px;
+}
+.circle-head2{
+    border: dotted #D65DB1 5px;
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    position: absolute;
+    top: -90px; 
+    left: 117px;
+}
+.circle-head3{
+    border: dotted #FF6F91 6px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px; 
+    left: 135px;
+}
+.circle-head4{
+    border: dotted #FF9671 8px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px; 
+    left: 150px;
+}
+.circle-head5{
+   background-color: #FFC75F;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px; 
+    left: 175px;
+}
+.cover{
+    width:500px;
+    height: 450px;
+    border-radius: 50%;
+    position:absolute;
+    top:245px;
+    transform: rotate(-180deg);
+    box-shadow: 0px 110px 0px 10px black;
+}
+.border-eye1{
+    border: dotted #D65DB1 12px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 86px; 
+    left: 65px;
+}
+.border-eye2{
+    border: dotted #D65DB1 12px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 86px; 
+    right: 55px;
+}
